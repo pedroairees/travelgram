@@ -2,7 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 32px;
+    padding-block: 24px;
 
     line-height: 0;
 }
@@ -21,4 +21,14 @@ nav ul li:last-child img {
 
 a:hover {
     color: var(--brand-color);
+}
+
+.container {
+    padding-inline: 32px;
+    max-width: 1216px;
+    margin-inline: auto;
+}
+
+.bg-color-surface {
+    background-color: var(--surface-color);
 }

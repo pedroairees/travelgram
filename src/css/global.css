@@ -25,7 +25,7 @@
 body {
     font: var(--text);
     color: var(--text-color-secundary);
-    background-color: var(--surface-color);
+    background-color: var(--bg-color);
 }
 
 a {
