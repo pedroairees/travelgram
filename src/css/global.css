@@ -14,7 +14,7 @@
     /* text color*/
     --text-color-primary: #313131;
     --text-color-secundary: #6C6C6C;
-    /* fonts */
+    /* font*/
     --font-poppins: "Poppins", serif;
     --text-lg: bold 32px/125% var(--font-poppins);
     --text: 16px/150% var(--font-poppins);
@@ -31,4 +31,10 @@ body {
 a {
     text-decoration: none;
     color: inherit; /*vai usar a cor definida no elemento pai "body"*/
+}
+
+.container {
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
 }
