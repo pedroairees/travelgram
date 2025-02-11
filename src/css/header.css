@@ -24,6 +24,10 @@ header .container {
     margin-bottom: 8px;
 }
 
+#profile p {
+    font: var(--text-md);
+}
+
 #info {
     list-style: none;
     display: flex;
