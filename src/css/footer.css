@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    padding-block: 24px;
+    gap: 24px;
+}
+
+footer span{
+    font-family: var(--font-poppins);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--text-color-primary);
+}
+
+footer span:nth-child(1) {
+    margin-right: auto;
+}
