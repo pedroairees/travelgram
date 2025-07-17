@@ -1,0 +1,45 @@
+.only-desktop {
+    display: none;
+}
+
+nav {
+    & ul {
+        gap: .5rem;
+    }
+}
+
+.container {
+    padding-inline: 1rem;
+    max-width: 22.5rem;
+    margin-inline: auto;
+}
+
+header .container {
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+
+    & #profile {
+        flex-direction: column;
+    }
+
+    & #info {
+        align-items: start;
+    }
+}
+
+main {
+    gap: 1rem;
+    padding-block: 1rem;
+
+    & img {
+        width: 20.5rem;
+        height: 20.5rem;
+        object-fit: cover;
+    }
+}
+
+footer {
+    flex-wrap: wrap;
+    justify-content: center;
+}
